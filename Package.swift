@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "WechatOpenSDK",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v11),
+        .macOS(.v11_5)
     ],
     products: [
         .library(name: "WechatOpenSDK", targets: ["WechatOpenSDK"]),

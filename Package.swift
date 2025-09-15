@@ -6,8 +6,7 @@ import PackageDescription
 let package = Package(
     name: "WechatOpenSDK",
     platforms: [
-        .iOS(.v11),
-        .macOS(.v11_5)
+        .iOS(.v11)
     ],
     products: [
         .library(name: "WechatOpenSDK", targets: ["WechatOpenSDK"]),
@@ -15,6 +14,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "WechatOpenSDK",
-            path: "./Sources/WechatOpenSDK-XCFramework.xcframework")
+            path: "./Sources/WechatOpenSDK.xcframework")
     ]
 )
